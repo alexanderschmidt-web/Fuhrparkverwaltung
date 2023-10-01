@@ -15,9 +15,10 @@ import java.util.ArrayList;
 
 public class FahrzeugManage {
 
+    //gesuchte Fahrzeug anhand der Kennzeichen
     public static Fahrzeug suchErgebnis;
-    public static Fahrzeug suchErgebnis2;
 
+    //Liste aller Fahrzeugen in der Datenbank
     private final ArrayList<Fahrzeug> kfz = new ArrayList();
 
     public void neuAnlegen(String typ, String marke, String kennz) {
@@ -31,7 +32,6 @@ public class FahrzeugManage {
         for(Fahrzeug s: kfz)
             if(s.getKennzeichen().equalsIgnoreCase(kennz)) {
                 suchErgebnis = s;
-                suchErgebnis2 = s;
             }
     }
 
