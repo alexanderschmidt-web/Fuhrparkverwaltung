@@ -1,4 +1,11 @@
 package de.unternehmensverwaltung.fuhrpark.management;
+/**
+ * Zur Anwendung im Webbrowser werden folgende Funktionen gegeben:
+ *  - Anlegen und entfernen Firmenfahrzeuge
+ *  - Suchfunktion anhand Kennzeichen um bestimmte Autos zu finden
+ *  - Protokollfunktion fuer Übergabe an den Fahrer und aktuelle Routing
+ *  - Aktuelle Status zu Wartung/Reparatur/Untersuchung
+ */
 
 import de.unternehmensverwaltung.fuhrpark.management.fahrzeug.Fahrzeug;
 import de.unternehmensverwaltung.fuhrpark.management.fahrzeug.Lkw;
