@@ -1,0 +1,1 @@
+INSERT INTO kfz_daten (id, fahrername, fahrzeugtyp, geschwindigkeit, kennzeichen, marke, status) VALUES (-2, 'Max', 'PKW', 100, 'OE-AS', 'VW', 'unterwaegs');
